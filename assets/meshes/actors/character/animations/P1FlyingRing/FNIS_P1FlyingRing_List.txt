@@ -1,0 +1,61 @@
+' Format:	<type> -<option,option,...> <AnimEvent> <Animation File> [<AnimObject CK>]
+'		type: 	b (basic)
+'				o (animated objects) 	
+'		option: a (acyclic) 				default: cyclic
+'				h (headtracking remains) 	default: headtracking off
+'               Tf (acyclic only, transition after clip "IdleForceDefaultState": everything set to default)
+'               Tn (acyclic only, transition after clip "00Next Clip": used if another idle will follow immediately)
+'                       					default "IdleStop" (regular idle end)
+'
+'		<Animation File> without path (files expected in Animations\<mod name>)
+'
+' Example:
+' b -a,h,Tf MyAnimEvent1 MyAnimFile1.hkx
+'	
+' Comment:	' in column 1 / empty lines possible
+'
+' AnimEvents and Animation File names have to be unique through all mods (even for files in different folders)
+' so it's a good idea use mod specific abbrevioations for all our names
+'
+
+' P1FlyingRing: temporary file names
+' c90-c100
+b -B1.3 eFlyingIdle flyidle.hkx
+b -B1.3 eFlyingBack flyback.hkx
+b -B1.3 eFlyingForward flyforward.hkx
+b -B1.3 eFlyingForwardLeft flyingforwardleft.hkx
+b -B1.3 eFlyingForwardRight flyingforwardright.hkx
+b -B1.3 eFlyingForwardUp flyforwarddown.hkx
+b -B1.3 eFlyingForwardDown flyforwardup.hkx
+b -B1.3 eFlyingLeft flyleft.hkx
+b -B1.3 eFlyingRight flyright.hkx
+b -B1.3 eFlyingSprint flysprint.hkx
+b -B1.3 eFlyingUp flyup.hkx
+b -B1.3 eFlyingDown flydown.hkx
+b -B1.3 eFlyingAttackLeft flyattackleft.hkx
+b -B1.3 eFlyingAttackRight flyattackright.hkx
+b -B1.3 eFlyingAttackDual flyattackdual.hkx
+b -B1.3 eFlyingSpellIdle flycombatspell.hkx
+b -B1.3 eFlyingForwardSlow flyforwardslow.hkx
+b -B1.3 eFlyingCalculateCost flycalculatecost.hkx
+b -B1.3 eFlyingHealDual flyhealdual.hkx
+b -B1.3 eFlyingHealRight flyhealright.hkx
+b -B1.3 eFlyingHealLeft flyhealleft.hkx
+b -B1.0 eFlyingTakeOff flytakeoff.hkx
+b -B1.3 eFlying2hIdle flyidle2h.hkx
+b -B1.3 eFlyingDualIdle flyidledual.hkx
+b -B1.3 eFlyingShieldIdle flyidleshield.hkx
+b -a,Tn eFlying2hAttackLeft f2hattackleft.hkx
+b -a,Tn eFlying2hAttackRight f2hattackright.hkx
+b -a,Tn eFlying2hAttackFront f2hattackfront.hkx
+b -a,Tn eFlying2hAttackForward f2hattackfrontfwd.hkx
+b -a,Tn eFlyingDWAttackFront fdwattackfront.hkx
+b -a,Tn eFlyingDWAttackBack fdwattackback.hkx
+b -a,Tn eFlyingDWAttackBoth fdwattackboth.hkx
+b -a,Tn eFlyingDWAttackFrontFwd fdwattackfrontfwd.hkx
+b -a,Tn eFlying1HAttackFront f1hattackcenter.hkx
+b -a,Tn Flying1HAttackLeft f1hattackleft.hkx	
+b -a eFlying1HAttackRight f1hattackright.hkx
+b eFlying1HBlock f1block.hkx
+b eFlyingShoutInhale flyshoutinhale.hkx
+b eFlyingShoutExhale flyshoutexhale.hkx
