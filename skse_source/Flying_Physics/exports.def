@@ -1,0 +1,4 @@
+LIBRARY	"Flight_Physics"
+EXPORTS
+SKSEPlugin_Query
+SKSEPlugin_Load

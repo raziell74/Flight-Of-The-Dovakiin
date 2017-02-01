@@ -1,0 +1,148 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project '..\..\common\common_vc9.vcxproj' does not exist.
+  skse.cpp
+  NiTypes.cpp
+  NiTextures.cpp
+  NiSerialization.cpp
+  NiRTTI.cpp
+  NiRenderer.cpp
+  NiProperties.cpp
+  NiObjects.cpp
+  NiNodes.cpp
+  NiMaterial.cpp
+  NiLight.cpp
+  NiInterpolators.cpp
+  NiGeometry.cpp
+  NiExtraData.cpp
+  NiControllers.cpp
+  Utilities.cpp
+f:\documents\visual studio 2015\projects\flightofthedragonborn\skse\utilities.cpp(183): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+  Translation.cpp
+  Serialization.cpp
+  SafeWrite.cpp
+  PluginManager.cpp
+  Generating Code...
+  Compiling...
+  InternalSerialization.cpp
+  InputMap.cpp
+  HashUtil.cpp
+  GlobalLocks.cpp
+  CustomMenu.cpp
+  Colors.cpp
+  Hooks_UI.cpp
+  Hooks_Threads.cpp
+  Hooks_Scaleform.cpp
+  Hooks_SaveLoad.cpp
+  Hooks_Papyrus.cpp
+  Hooks_ObScript.cpp
+  Hooks_NetImmerse.cpp
+  Hooks_Memory.cpp
+  Hooks_Handlers.cpp
+  Hooks_Gameplay.cpp
+  Hooks_Event.cpp
+  Hooks_DirectInput8Create.cpp
+  Hooks_Debug.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+  Hooks_Camera.cpp
+  Generating Code...
+  Compiling...
+  ScaleformVM.cpp
+  ScaleformTypes.cpp
+  ScaleformState.cpp
+  ScaleformMovie.cpp
+  ScaleformLoader.cpp
+  ScaleformExtendedData.cpp
+  ScaleformCallbacks.cpp
+  ScaleformAPI.cpp
+  GameThreads.cpp
+  GameStreams.cpp
+  GameSettings.cpp
+  GameRTTI.cpp
+  GameResources.cpp
+  GamePathing.cpp
+  GameObjects.cpp
+  GameMenus.cpp
+  GameInput.cpp
+  GameHandlers.cpp
+  GameForms.cpp
+  GameFormComponents.cpp
+  Generating Code...
+  Compiling...
+  GameExtraData.cpp
+  GameEvents.cpp
+  GameData.cpp
+  GameCamera.cpp
+  GameAPI.cpp
+  PapyrusObjects.cpp
+  PapyrusEvents.cpp
+  PapyrusVM.cpp
+  PapyrusNativeFunctions.cpp
+  PapyrusClass.cpp
+  PapyrusArgs.cpp
+  PapyrusWornObject.cpp
+  PapyrusWeather.cpp
+  PapyrusWeapon.cpp
+  PapyrusUtility.cpp
+  PapyrusUICallback.cpp
+  PapyrusUI.cpp
+  PapyrusTree.cpp
+  PapyrusTextureSet.cpp
+  PapyrusStringUtil.cpp
+  Generating Code...
+  Compiling...
+  PapyrusSpell.cpp
+  PapyrusSoundDescriptor.cpp
+  PapyrusSound.cpp
+  PapyrusSKSE.cpp
+  PapyrusShout.cpp
+  PapyrusScroll.cpp
+  PapyrusRace.cpp
+  PapyrusQuest.cpp
+  PapyrusPotion.cpp
+  PapyrusPerk.cpp
+  PapyrusObjectReference.cpp
+  PapyrusNetImmerse.cpp
+  PapyrusModEvent.cpp
+  PapyrusMisc.cpp
+  PapyrusMath.cpp
+  PapyrusMagicEffect.cpp
+  PapyrusLeveledSpell.cpp
+  PapyrusLeveledItem.cpp
+  PapyrusLeveledActor.cpp
+  PapyrusKeyword.cpp
+  Generating Code...
+  Compiling...
+  PapyrusInput.cpp
+  PapyrusIngredient.cpp
+  PapyrusHeadPart.cpp
+  PapyrusGame.cpp
+  PapyrusForm.cpp
+  PapyrusFlora.cpp
+  PapyrusEquipSlot.cpp
+  PapyrusEnchantment.cpp
+  PapyrusDefaultObjectManager.cpp
+  PapyrusConstructibleObject.cpp
+  PapyrusCombatStyle.cpp
+  PapyrusColorForm.cpp
+  PapyrusCell.cpp
+  PapyrusBook.cpp
+  PapyrusArt.cpp
+  PapyrusArmorAddon.cpp
+  PapyrusArmor.cpp
+  PapyrusAmmo.cpp
+  PapyrusAlias.cpp
+  PapyrusActorValueInfo.cpp
+  Generating Code...
+  Compiling...
+  PapyrusActorBase.cpp
+  PapyrusActor.cpp
+  PapyrusActiveMagicEffect.cpp
+  GameTypes.cpp
+  CommandTable.cpp
+  Generating Code...
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+ScaleformVM.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ScaleformMovie.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  skse.vcxproj -> f:\documents\visual studio 2015\Projects\FlightOfTheDragonborn\Debug\skse.lib
+          1 file(s) copied.
