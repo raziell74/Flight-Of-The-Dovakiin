@@ -66,7 +66,7 @@ void __fastcall hook_move(actor::physics_data *phys_data, const int edx, move_pa
 	// Read Skyrim engine variable "fJumpHeightMin"
 	memcpy(&fJumpHeightMin, (void *)0x01B16218, 4);
 
-	isFlyingUp = isFlyingDown = isHovering = isFlyingBackward = isSprinting = false;
+	isFlyingActive = isFlyingUp = isFlyingDown = isHovering = isFlyingBackward = isSprinting = false;
 
 	// Determine if we're flying
 	if ((fJumpHeightMin > 349.0f) && (fJumpHeightMin < 501.0f))	isFlyingActive = true;
