@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project '..\..\common\common_vc9.vcxproj' does not exist.
-  Flight_Physics.vcxproj -> f:\documents\visual studio 2015\Projects\FlightOfTheDragonborn\Debug\Flight_Physics.dll
-  Flight_Physics.vcxproj -> f:\documents\visual studio 2015\Projects\FlightOfTheDragonborn\Debug\Flight_Physics.pdb (Full PDB)
