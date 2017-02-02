@@ -1,4 +1,4 @@
-skse/Debug/*
-skse/ipch/*
-skse/.vs/*
-skse/FlightOfTheDragonborn.VC.VC.opendb
+*Debug
+*ipch
+*.vs
+*FlightOfTheDragonborn.VC.VC.opendb
